@@ -1,5 +1,6 @@
 "use client";
 import gsap from "gsap";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
@@ -62,8 +63,13 @@ const Navbar = () => {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <Image
+              src="/img/logo.png"
+              alt="logo"
+              className="w-10"
+              width={50}
+              height={50}
+            />
 
             <Button
               id="product-button"

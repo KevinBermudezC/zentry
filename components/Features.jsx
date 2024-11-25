@@ -25,7 +25,7 @@ const Features = () => {
             src="/videos/feature-1.mp4"
             title={
               <>
-                radi<b>n</b>t
+                radia<b>n</b>t
               </>
             }
             description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
@@ -82,7 +82,7 @@ const Features = () => {
             </div>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
+          <div className="bento-tilt_2">
             <video
               src="/videos/feature-5.mp4"
               autoPlay
@@ -90,7 +90,7 @@ const Features = () => {
               muted
               className="size-full object-cover object-center"
             />
-          </BentoTilt>
+          </div>
         </div>
       </div>
     </section>
